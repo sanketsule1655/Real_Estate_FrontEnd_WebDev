@@ -1,0 +1,802 @@
+/* *                             Innovation Blue = #1F5C7A
+                                Minimalist White = #F1F1F1
+                                Vibrant Yellow = #FABE2C
+                                Sleek Black = #333333 */
+*                               
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container
+{
+   width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.header
+{
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color:#333333;
+}
+.logo
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+}
+.logo img
+{
+    width: 25%;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 20px; 
+    /* padding-top: 10px;  */
+}
+.logo h2
+{
+    padding: 10px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 60%;
+    padding-top: 10px;
+    color: white;
+}
+.menu :hover
+{
+    background-color:#FABE2C ;
+    color: #333333;
+}
+.menu a
+{
+    justify-content:center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transform: translateY();
+}
+.slider
+{
+    width: 100%;
+    min-height: 100px;
+    margin-top: 10px;
+}
+.carousel-item img
+{
+    width:100%;
+    height: 100%;
+}
+@media only screen and (max-width:768px)
+{
+    .slider
+    {
+        flex-direction: column;
+    }
+    .carousel-item img
+    {
+        flex-direction: column;
+    }
+}
+.box
+{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 10px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.title h2
+{
+    margin: auto;
+    text-align: center;
+}
+.dubausmal
+{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 10px;
+}
+.b1
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+    justify-content: space-evenly;
+    
+}
+.b1 button
+{
+    border-radius: 10px;
+    background-color:#1F5C7A ;
+    color: #FABE2C;
+}
+.b1 img
+{
+    width: 100%;
+    min-height: 300px;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.b1 a
+{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#F1F1F1;
+    background-color:#1F5C7A ;
+}
+.b1 .text-heading h4
+{
+    text-align: center;
+    background-color:#1F5C7A ;
+    color:#F1F1F1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+/* footer home page----------------------------------------------------------------------------------------------------- */
+.footer
+{
+    background-color:#FABE2C;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+.footercon
+{
+    width: 100%;
+    min-height: 200px;
+    margin-top: 10px;
+}
+.row1
+{
+    display: flex;
+    flex-wrap: wrap
+}
+ul
+{
+    list-style-type: none;
+}
+.footer-col
+{
+    width: 25%;
+    padding: 15px;
+    text-align: center;
+}
+.footer-col h4
+{
+    color:#333333;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    /* margin-left: 30px; */
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col .p
+{
+     color:#333333;
+}
+.footer-col ul li a
+{
+    font-size: 1em;
+    text-transform: capitalize;
+    color: #333333;
+    text-decoration: none;
+    font-weight: 400;
+    display: block;
+    transition:all 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition:0.3s ease;
+    -ms-transition:0.3s ease;
+    -o-transition:0.3s ease;
+    padding-top: 5px;
+}
+.footer-col .Contact-links a
+{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(red, green, blue, alpha);
+    /* margin: 0 10px 10px 0; */
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    -webkit-border-radius:50%;
+    color: #333333;
+    transition:all 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition:0.3s ease;
+    -ms-transition:0.3s ease;
+    -o-transition:0.3s ease;
+}
+.footer-col .Contact-links a:hover
+{
+    color:#F1F1F1;
+    background-color: #333333;
+}
+.last
+{
+    width: 100%;
+    min-height: 50px;
+    margin-top: 10px;
+    border:1px solid #000;
+    background-color: #333333;
+    color: #FABE2C; 
+}
+.last h4
+{
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* about us CSS------------------------------------------------------------------------------------------------------------ */
+.body
+{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+}
+.body h1
+{
+    display: flex;
+    position: absolute;
+    text-align:center;
+    justify-content:center;
+    margin-top: 50px;
+    top: 0;
+    left: 33rem;
+    color:  #333333;
+}
+.body img
+{
+    width: 100%;
+    height: 500px;
+}
+.Subbody
+{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+.Subbody h1
+{
+    text-align: center;
+    min-height: 75%;
+    color:  #333333;
+}
+.Subbody p
+{
+    width: 60%;
+    margin:auto;
+    padding: 10px;
+}
+.heading h1
+{
+    margin-top: 10px;
+    padding-top: 10px;
+    min-height: 50px;
+    text-align: center;
+    justify-content:center;
+    color:  #333333;
+}
+.clientwords
+{
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.clientwords .box1
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    background-color:#1F5C7A;
+    color: #F1F1F1;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+.clientwords .box1 h4
+{
+    margin-top: 10px;
+}
+/* CSS Property for Contact us----------------------------------------------------------------------------- */
+.container{
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .container .content .left-side{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+  }
+  .content .left-side::after{
+    content: '';
+    position: absolute;
+    height: 80%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #afafb6;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+  }
+  .content .left-side .details{
+    margin: 14px;
+    text-align: center;
+  }
+  .content .left-side .details i{
+    font-size: 30px;
+    color:#1F5C7A;
+    margin-bottom: 10px;
+  }
+  .content .left-side .details .topic{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .content .left-side .details .text-one,
+  .content .left-side .details .text-two{
+    font-size: 14px;
+    color: #afafb6;
+  }
+  .container .content .right-side{
+    width: 75%;
+    margin-left: 75px;
+  }
+  .content .right-side .topic-text{
+    font-size: 23px;
+    font-weight: 600;
+    color: #1F5C7A;
+  }
+  .right-side .input-box{
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+  }
+  .right-side .input-box input,
+  .right-side .input-box textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #F0F1F8;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+  }
+  .right-side .message-box{
+    min-height: 110px;
+  }
+  .right-side .input-box textarea{
+    padding-top: 6px;
+  }
+  .right-side .button{
+    display: inline-block;
+    margin-top: 12px;
+  }
+  .right-side .button input[type="button"]{
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #1F5C7A;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button input[type="button"]:hover{
+    background: #1F5C7A;
+  }
+  .box
+  {
+      width: 100%;
+      min-height: 150px;
+      margin-top: 10px;
+      display: flex; 
+      flex-direction:column;
+      justify-content: space-evenly;
+  }
+  .title h2
+  {
+      margin: auto;
+      text-align: center;
+  }
+  .our-partners
+  {
+      width: 100%;
+      min-height: 300px;
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+      gap: 10px;
+  }
+  .b1
+  {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 33%;
+      justify-content: space-evenly;
+  }
+  .b1 button
+  {
+      border-radius: 10px;
+  }
+  .b1 img
+  {
+      width: 100%;
+      min-height: 300px;
+      justify-content: space-evenly;
+      margin-bottom: 10px;
+  }
+  .b1 a
+  {
+      text-decoration: none;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color:#000;
+  }
+  .text-heading h4
+  {
+      text-align: center;
+      background-color:#1F5C7A;
+      color: #000;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      border-top-right-radius: 50px;
+      border-bottom-left-radius: 50px;
+  }
+  /* Our partners CSS------------------------------------------------------------------------ */
+  .Box2
+  {
+     width: 100%;
+     min-height: 100px;
+     margin-top: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+  }
+  .title2 h1
+  {
+     margin: auto;
+     text-align: center;
+  }
+  .title h1 img
+  {
+    width: 100%;
+  }
+  .partners
+  {
+      width: 100%;
+      min-height: 300px;
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+      gap: 10px;
+  }
+  .b2
+  {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    justify-content: space-evenly;
+  }
+  .b2 img
+  {
+    width: 100%;
+    min-height: 300px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+  .img-div2 img
+  {
+    display: flex;
+    flex-direction: row;
+  }
+/* CSS for the Properties------------------------------------------------------ */
+.properties1
+{
+    width: 100%;
+    min-height: 300px;/
+}
+.heading2
+{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.allimages
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.images_s
+{
+    flex-basis: 33%;
+}
+.images_s h2
+{
+    text-align: center;
+    color:  #333333;
+}
+.images_s img
+{
+    width: 100%;
+    height: 90%;
+}
+/* media query for main page */
+/* For screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .header 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo {
+        flex-basis: 100%;
+        height: 50px;
+    }
+    .menu {
+        flex-basis: 100%;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .menu a {
+        margin-left: 0;
+    }
+    .slider {
+        flex-direction: column;
+    }
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+    .box {
+        flex-direction: column;
+    }
+    .dubausmal {
+        flex-direction: column;
+    }
+    .b1 {
+        flex-basis: 100%;
+    }
+    .b1 img {
+        margin-bottom: 0;
+    }
+    .footer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footercon
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .row1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-col {
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-col ul li a
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-col h4 {
+        margin-bottom: 20px;
+    }
+    .Contact-links
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .clientwords
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .body img 
+    {
+        width: 100%;
+        height: auto;
+    }
+    .body h1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0%;
+    }
+    .properties1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .allimages
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .images_s
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .images_s img
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .images_s h2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Box2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .title2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .partners
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .b2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-div2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-div2 img
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .content
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .left-side
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    .right-side
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+    
+}
+/* media query for about us */
+/* Styles for screens smaller than 768px */
+/* Regular styles */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  
+  
+  
